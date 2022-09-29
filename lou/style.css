@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&display=swap');
+.font-family{
+    font-family: "oswald, sans-serif";
+}
+
+.oswald-bold{
+    font-family: Oswald;
+    color: #fff;
+    font-size: 66px;
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+}
+.light, .light-1{
+    font-family: Oswald;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 100;
+    word-break:break-word;
+    word-wrap: break-word;
+    letter-spacing: 3px;
+}
+.light-1{
+    margin: 1rem 0 4rem;
+}
+.parallex{
+    background-image: url(./images/Group\ 1332.png);
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.banner{
+    height: 100vh;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.logo{
+    width: 20rem;
+}
+.hamburger{
+    font-size: 30px;
+}
+.hamburger i{
+    color: white;
+}
+.button{
+    color: white;
+    background-color: #AD172B;
+    padding: 1.5rem 5rem;
+}
+.button p{
+    font-family: Oswald;
+    letter-spacing: 1px;
+  margin:0;
+    font-size: 19px;
+    font-weight: 500;
+    
+}
+.button i{
+    font-size:11px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+}
+/* --------------------------------------------packges-------------------------- */
+/* .pkg-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.packages , .details{
+    margin: 2rem 0;
+}
+.button , .pkg-2{
+    border: none;
+}
+.pkg-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.center-content{
+    font-family: Oswald;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.center-content .h1{
+    text-decoration: line-through;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+.center-content .h2{
+    font-size: 4rem;
+    color: #AD172B;
+    font-weight: 700;
+
+}
+.pkg-1{
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.pkg-1, .pkg-2{
+    width:-webkit-fill-available;
+    text-transform: uppercase;
+    background-color: #AD172B;
+    padding: 1.3rem 5rem;
+    color: #fff;
+    font-size: 23px;
+    font-family: Oswald;
+    font-weight: 500;
+}
+.pkg-2{
+    padding: 1.5rem 4rem;
+    margin: 1rem;
+}
+.pkg-2 p{
+    margin: 0;
+    font-size: 15px;
+}
+.pkg-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pkg-2 .fa-solid, .fas {
+    margin-left: 15px;
+}
+.pkg-card .h5{
+    font-weight: 100;
+    font-size: 18px;
+    color:rgb(42 42 42);
+    margin-bottom: 2rem;
+}
+.list li{
+    list-style-type: none;
+}
+.d-h1{
+    font-size: 30px;
+    font-family: 'Oswald' !important;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.details .para{
+    font-size: 17px;
+    font-family:'Open serif' Oswald;
+    font-weight:400;
+    padding-left: 20px;
+}
+.list{
+    padding: 11px;
+}
+.list .icon{
+    padding: 0 18px;
+    padding-top: 3px;
+
+}
+.list .icon .fa-solid, .fas{
+    font-size: 1.4rem;
+    color: #AD172B;
+}
+.sub-details .tag{
+    font-size: 18px;
+    font-weight: 700;
+}
+.list li{
+    display: flex;
+}
+.banner-poster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:6rem 0;
+    background-image: url(./images/Group\ 1333.png);
+    min-height: 35vh;
+    background-size: cover;
+    background-position: bottom;
+    padding: 2rem 0;
+}
+
+
+.b-h{
+    text-align: center;
+font-family: Oswald;
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+}
+.banner-poster p{
+    text-align: center;
+    padding: 0 10rem;
+    color: #fff;
+    font-size: 17px;
+    font-family: Oswald;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.service-1{
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.service-1 .para{
+    text-align: center;
+}
+.service-1 .fa-solid, .fas {
+    font-size: 2rem;
+    color: #AD172B;
+    padding: 10px 0;
+}
+.service-1 .s-h{
+    font-size: 23px;
+    font-weight: 700;
+    font-family: Oswald;
+    padding: 5px 0;
+}
+.service-1 .para{
+    font-size: 13px;
+    padding: 0 4rem;
+}
+.footer{
+    padding: 3rem 0;
+    height:auto;
+    background-image: url(./images/Group\ 1334.png);
+}
+.footer .f-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer form{
+  
+    background-color:white;
+    padding: 2rem 1.5rem 0.75rem;
+}
+.footer .h-f{
+    color: aliceblue;
+    text-align: center;
+    font-size: 3.7rem;
+    font-weight: 700;
+    padding: 0rem 0rem 6rem;
+    font-family: Oswald;
+}
+.footer .p-f{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: Oswald;
+}
+.form-control {
+   border-radius:none !important ;
+    padding: 1.6rem 0.75rem !important;
+    color: rgb(109, 108, 108) !important;
+    background-color: rgb(237, 237, 237, 1) !important;
+}
+.f-btn{
+    padding: 1rem !important;
+    margin:1.4rem 0;
+    
+}
+.footer button p{
+    font-size: 18px;
+}
+.footer .para{
+    font-size: 12px;
+    text-align: center;
+}
+.contact-footer{
+    background-color: black;
+    /* border-top: 1px solid white; */
+}
+.sub-footer{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-footer .contacts ul{
+    list-style-type: none !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-bottom: 1rem; 
+}
+.contact-footer .contacts li .fa-solid, .fas {
+    padding-right: 7px;
+    font-size: 17px;
+    color: #AD172B;
+}
+.contact-footer .contacts li{
+    padding-right: 5rem;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Open sans";
+    font-weight: 200;
+}
+.footer-logo{
+    padding: 2rem 0;
+}
+.contact-footer .bottom{
+    border-top: 1px solid rgb(131, 130, 130);
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: baseline;
+    color: aliceblue;
+    padding: 1rem 0;
+}
+.contact-footer .bottom ul{
+    list-style: none;
+    display: flex;
+}
+.contact-footer .bottom li{
+    padding:0 5px ;
+}
+.contact-footer .bottom span, .contact-footer .bottom li{
+    font-size: 14px;
+}

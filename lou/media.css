@@ -1,0 +1,143 @@
+@media (max-width: 1024px){
+    .oswald-bold {
+        font-size: 62px;
+    }
+    .light, .light-1{
+        font-size: 20px;
+    }
+    .button {
+        padding: 1.5rem 3rem;
+    }
+    .pkg-1, .pkg-2 {
+       font-size: 22px;
+        padding: 1.3rem 3.5rem;     
+    }
+    .center-content .h1 {
+        margin: 1.2rem 0;
+    }
+    .center-content .h2 {
+        font-size: 3.5rem;
+    }
+    .h3, h3 {
+        font-size: 1.7rem;
+    }
+    .h4, h4 {
+        font-size: 1.3rem;
+    }
+    .pkg-card .h5 {
+        font-weight: 100;
+        font-size: 15px;
+    }
+    .d-h1 {
+        font-size: 28px;
+    }
+    .details .para {
+        font-size: 14px;
+    }
+    .sub-details .tag {
+        font-size: 15px;
+    }
+    .sub-details p {
+        font-size: 13px;
+    }
+    .banner-poster {
+        margin: 2rem 0;
+    }
+    .b-h {
+        font-size: 50px;
+        letter-spacing: 1px;
+    }
+    .banner-poster p {
+        padding: 0 8rem;
+    }
+    .service-1 {
+        margin: 2rem 0;
+    }
+    .footer .h-f {
+        font-size: 3.3rem;
+    }
+}
+@media (max-width: 768px){
+    .pkg-1, .pkg-2 {
+        text-align: center;
+    }
+    .footer .h-f {
+        padding: 0rem 0rem 3rem;
+    }
+    .footer .f-image {
+        display: none;
+    }
+}
+@media (max-width: 425px){
+    .oswald-bold {
+        font-size: 45px;
+        letter-spacing: 0;
+    }
+    .light, .light-1 {
+        font-size: 16px;
+    }
+    .button {
+        padding: 1.5rem 2rem;
+    }
+    .b-h {
+        font-size: 40px;
+    }
+    .banner-poster p {
+        padding: 0 1rem;
+    }
+    .contact-footer .contacts ul {
+       display: block;
+       padding-left: 0;
+    }
+    .contact-footer .contacts li{
+        padding: 10px 0;
+    }
+    .contact-footer .bottom {
+        display: block;
+        width: auto;
+    }
+    .contact-footer .contacts li {
+        text-align: center;
+    }
+    .contact-footer .bottom span, .contact-footer .bottom li {
+        font-size: 13px;
+    }
+
+}
+@media (max-width: 375px){
+    .service-1 .s-h {
+        font-size: 16px;
+    }
+    .button {
+        padding: 1.5rem 1rem;
+    }
+    .light, .light-1 {
+        font-size: 15px;
+    }
+    .oswald-bold {
+        font-size: 36px;
+        margin-bottom: 2rem;
+    }
+    .banner-poster {
+        margin: 0rem 0;
+    }
+    .banner-poster p {
+        
+        font-size: 16px;
+    }
+    .b-h {
+        font-size: 35px;
+    }
+    .footer .h-f {
+        font-size: 2.5rem;
+    }
+    .contact-footer .bottom span, .contact-footer .bottom li {
+        font-size: 12px;
+    }
+    .contact-footer .bottom span, .contact-footer .bottom li {
+        font-size: 10px;
+    }
+    .contact-footer .bottom ul {
+        padding-left: 0;
+    }
+}
